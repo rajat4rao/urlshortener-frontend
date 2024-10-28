@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); 
+
+body {
+  background-color: #f4f4f4; 
+  font-family: "Poppins", sans-serif;
+  color: #333; 
+}
+
+.navbar {
+  background-color: #2c3e50; 
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff; 
+}
+
+.container, .container-dash {  
+  max-width: 900px; 
+  margin: 50px auto; 
+  padding: 0 15px; 
+}
+
+.jumbotron {
+  background: #fff; 
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.btn-primary {
+  background-color: #27ae60; 
+  border-color: #27ae60;
+  color: #fff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #219150 !important;
+  border-color: #219150 !important;
+}
+
+.form-control:focus {
+  border-color: #2980b9 !important;
+  box-shadow: 0 0 0 0.2rem rgba(41, 128, 185, 0.25);
+}
+
+h2 {
+  color: #2980b9;
+}
+
+.link {
+  color: #7f8c8d;
+}
+.link:hover {
+  color: #34495e;
+}
+
+.card-link {
+  color: #2980b9;
+}
+.card-link:hover {
+  color: #27ae60;
+}
+
+.activate-spinner {
+  color: #27ae60; 
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 20px; 
+}
+
+.card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+}
+
+.table { 
+  width: 100%;
+  max-width: 100%; 
+  margin-bottom: 1rem;
+  color: #212529; 
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.card .card-body canvas {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .container, .container-dash {
+    max-width: 100%; 
+  }
+  .btn-home{
+    width: 120px; 
+  }
+}
